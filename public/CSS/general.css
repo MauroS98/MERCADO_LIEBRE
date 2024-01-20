@@ -1,0 +1,26 @@
+:root {
+    /* COLORES */
+    --amarillo: #eac926;
+    --azul: #03264c;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --blanco: #ebebeb;
+    --verde: #39b54a;
+  
+    /* TIPOGRAFIA */
+    --familyRoboto:
+    "Roboto", sans-serif;
+  
+    /* TAMAÑOS TIPOGRAFIAS */
+    --bodyTextSize: 12px;
+    --titleTextSize: 24px;
+    --priceTextSize: 18px;
+    --discountTextSize: 16px;
+    --descriptionTextSize: 16px;
+  };
+  
+  *{
+    font-family: var(--familyRoboto);
+    margin: 0px;
+  }
+  
