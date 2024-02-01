@@ -3,7 +3,7 @@
     --amarillo: #eac926;
     --azul: #03264c;
     --celeste: #1259c3;
-    --grisOscuro: #666;
+    --gris: #666;
     --blanco: #ebebeb;
     --verde: #39b54a;
   
@@ -23,4 +23,22 @@
     font-family: var(--familyRoboto);
     margin: 0px;
   }
-  
+  .truck {
+    color: var(--verde);
+    border-radius: 50%;
+    border-color: var(--verde);
+    border: solid 1px;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .off {
+    color: var(--verde);
+    margin-top: 0px;
+  }
+  .precio {
+    margin-bottom: 0px;
+  }

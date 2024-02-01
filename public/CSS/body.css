@@ -3,7 +3,7 @@
 /*<=================================================================================================================>*/
 .main {
     width: 90%;
-    background-color: var(--grisClaro);
+    background-color: var(--blanco);
     margin: 0 auto;
 }
 .main .banner{
@@ -11,7 +11,7 @@
 }
 .articulo img{
     width: 100%;
-    border-bottom: solid 1px var(--grisClaro);
+    border-bottom: solid 1px var(--blanco);
 }
 
 .articulo{
@@ -39,17 +39,17 @@
     display: none;
     margin-bottom: 0px;
     font-weight: normal;
-    color: var(--grisOscuro);
+    color: var(--gris);
 }
 
 .seccion{
     display: flex; 
     flex-direction: column ;
 }
-.seccion h4{
+.seccion h3{
     text-align: left;
     margin-left: 14px;
-    color: var(--grisOscuro);
+    color: var(--gris);
     margin-bottom: 10px;
 }
 /*<=================================================================================================================>*/
@@ -57,24 +57,24 @@
 /*<=================================================================================================================>*/
 @media(min-width:360px) and (max-width:768px) { 
     
-    .home div{
+    .main div{
         width: 100%;
     }
-    .home div h4{
+    .main div h4{
         text-align: center;
     }
     
-    .home nav{
+    .main nav{
         display: block;
     }
     
-    .home .burger-menu i{
+    .home-header .burger-menu {
         display: none;
     }
 
     .main {
         width: 90%;
-        background-color: var(--grisClaro);
+        background-color: var(--blanco);
     }
 
     .main .seccion .articulo{
@@ -82,17 +82,17 @@
     }
 
     .main .seccion .articulo .precio{
-        font-size: var(--precios);
+        font-size: var(--priceTextSize);
     }
 
     .main .seccion .articulo .oferta{
-        font-size: var(--descuentos);
+        font-size: var(--discountTextSize);
     }
 
     .main .seccion .articulo .div-h5{
         display: block;
         margin-top: 16px;
-        font-size: var(--descripciones);
+        font-size: var(---descriptionTextSize);
     }
 }
 /*<=================================================================================================================>*/
@@ -100,10 +100,10 @@
 /*<=================================================================================================================>*/
 @media(min-width:769px) { 
   
-    .home div{
+    .main div{
         width: 100%;
     }
-    .home div h4{
+    .main section article h3{
         text-align: center;
     }
     
@@ -111,13 +111,13 @@
         display: block;
     }
     
-    .home .burger-menu i{
+    .home-header .burger-menu {
         display: none;
     }
 
     .main {
         width: 90%;
-        background-color: var(--grisClaro);
+        background-color: var(--blanco);
     }
 
     .main .seccion .articulo{
@@ -125,16 +125,16 @@
     }
     
     .main .seccion .articulo .precio{
-        font-size: var(--precios);
+        font-size: var(--priceTextSize);
     }
 
-    .main .seccion .articulo .oferta{
-        font-size: var(--descuentos);
+    .main .seccion .articulo .off{
+        font-size: var(--discountTextSize);
     }
 
     .main .seccion .articulo .div-h5{
         display: block;
         margin-top: 16px;
-        font-size: var(--descripciones);
+        font-size: var(--descriptionTextSize);
     }
 }
