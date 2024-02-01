@@ -1,1 +1,140 @@
+/*<=================================================================================================================>*/
+/*                     MOBILE                            MOBILE                            MOBILE                    */
+/*<=================================================================================================================>*/
+.main {
+    width: 90%;
+    background-color: var(--grisClaro);
+    margin: 0 auto;
+}
+.main .banner{
+    width: 100%;
+}
+.articulo img{
+    width: 100%;
+    border-bottom: solid 1px var(--grisClaro);
+}
 
+.articulo{
+    background-color: var(--blanco);
+    border-top: solid 1px var(--gris);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 10px;
+    border: solid 1px var(--gris);
+}
+
+.articulo .fa-truck{
+    border-radius: 19px;
+    padding: 3px 15px 15px 3px;
+    color: var(--verde);
+    border: solid 1px var(--verde);
+}
+
+.articulo .oferta{
+    font-size: 14px;
+    color: var(--verde);
+}
+.articulo .div-h5{
+    display: none;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: var(--grisOscuro);
+}
+
+.seccion{
+    display: flex; 
+    flex-direction: column ;
+}
+.seccion h4{
+    text-align: left;
+    margin-left: 14px;
+    color: var(--grisOscuro);
+    margin-bottom: 10px;
+}
+/*<=================================================================================================================>*/
+/*                     TABLET                            TABLET                            TABLET                    */
+/*<=================================================================================================================>*/
+@media(min-width:360px) and (max-width:768px) { 
+    
+    .home div{
+        width: 100%;
+    }
+    .home div h4{
+        text-align: center;
+    }
+    
+    .home nav{
+        display: block;
+    }
+    
+    .home .burger-menu i{
+        display: none;
+    }
+
+    .main {
+        width: 90%;
+        background-color: var(--grisClaro);
+    }
+
+    .main .seccion .articulo{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .main .seccion .articulo .precio{
+        font-size: var(--precios);
+    }
+
+    .main .seccion .articulo .oferta{
+        font-size: var(--descuentos);
+    }
+
+    .main .seccion .articulo .div-h5{
+        display: block;
+        margin-top: 16px;
+        font-size: var(--descripciones);
+    }
+}
+/*<=================================================================================================================>*/
+/*                    DESKTOP                           DESKTOP                           DESKTOP                    */
+/*<=================================================================================================================>*/
+@media(min-width:769px) { 
+  
+    .home div{
+        width: 100%;
+    }
+    .home div h4{
+        text-align: center;
+    }
+    
+    .home nav{
+        display: block;
+    }
+    
+    .home .burger-menu i{
+        display: none;
+    }
+
+    .main {
+        width: 90%;
+        background-color: var(--grisClaro);
+    }
+
+    .main .seccion .articulo{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .main .seccion .articulo .precio{
+        font-size: var(--precios);
+    }
+
+    .main .seccion .articulo .oferta{
+        font-size: var(--descuentos);
+    }
+
+    .main .seccion .articulo .div-h5{
+        display: block;
+        margin-top: 16px;
+        font-size: var(--descripciones);
+    }
+}

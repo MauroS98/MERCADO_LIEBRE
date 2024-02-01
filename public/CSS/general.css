@@ -8,8 +8,7 @@
     --verde: #39b54a;
   
     /* TIPOGRAFIA */
-    --familyRoboto:
-    "Roboto", sans-serif;
+    --familyRoboto:"Roboto", sans-serif;
   
     /* TAMAÑOS TIPOGRAFIAS */
     --bodyTextSize: 12px;
@@ -20,6 +19,7 @@
   };
   
   *{
+    box-sizing: border-box;
     font-family: var(--familyRoboto);
     margin: 0px;
   }
