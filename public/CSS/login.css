@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+#usuario{
+    margin-top: 20px;
+}
+.container{
+    text-align: center;
+    background-color: var(--blanco);
+}
+.form-control{
+    width: 350px;
+    margin: 10px;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid var(--blanco);
+}
+.btn{
+    margin: 15px;
+    color: var(--blanco);
+    background-color: var(--celeste);
+    border: none;
+    width: 350px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 6px;
+}

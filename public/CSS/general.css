@@ -19,6 +19,8 @@
   };
   
   *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: var(--familyRoboto);
     margin: 0px;
@@ -35,6 +37,7 @@
     align-items: center;
     justify-content: center;
   }
+  
   .off {
     color: var(--verde);
     margin-top: 0px;
@@ -42,3 +45,4 @@
   .precio {
     margin-bottom: 0px;
   }
+

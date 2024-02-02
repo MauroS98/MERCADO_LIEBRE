@@ -1,4 +1,9 @@
+body{
+    margin: 0;
+}
 .home-header {
+    padding:0px;
+    margin: 0px;
     background-color: var(--amarillo);
     padding-bottom: 10px;
     padding-left: 10px;
@@ -15,7 +20,7 @@
 
 .home-header form i {
     background: var(--blanco);
-    border: 1px solid var(--grisOscuro);
+    border: 1px solid var(--gris);
     padding: 1.5px;
     border-radius: 2px;
 }
@@ -57,6 +62,6 @@
 }
 
 .burger-menu i {
-    color: #ebebeb;
+    color: var(--blanco);
     padding-top: 10px;
 }
